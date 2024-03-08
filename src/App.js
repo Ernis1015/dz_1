@@ -1,28 +1,42 @@
-import './App.css';
-
 function App() {
     return (
         <div>
-        Header
+            <Header/>
+            <Content/>
+            <Footer/>
         </div>
     )
 }
 
 function Header() {
     return (
-        <div>asdasd</div>
+        <>
+            <Title/>
+        </>
     )
 }
 
 function Content() {
     return (
-        <div>asdasd</div>
+        <>
+            <Title/>
+        </>
     )
 }
 
 function Footer() {
     return (
-        <div>asdasd</div>
+        <>
+            <Title/>
+        </>
+    )
+}
+
+function Title() {
+    return (
+        <>
+            <h1>hello</h1>
+        </>
     )
 }
 
